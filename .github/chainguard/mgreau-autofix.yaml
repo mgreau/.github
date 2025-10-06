@@ -3,12 +3,10 @@ issuer: https://accounts.google.com
 subject: "104658657678730945684"
 
 permissions:
-  actions: read # Required to fetch workflow job logs
-  checks: write
+  # required to push commits with fixes to the fork
   contents: write
-  pull_requests: write
-  statuses: write
-  workflows: write # Allow triggering actions when authoring commits.
+  # Allow to fix GitHub Actions workflow files
+  workflows: write
 
 repositories:
   - terraform-infra-common
