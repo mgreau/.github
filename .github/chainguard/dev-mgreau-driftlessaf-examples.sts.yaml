@@ -8,5 +8,5 @@ permissions:
   checks: write
 
 repositories:
-  - stereo
   - driftlessaf-demo
+  - melange
