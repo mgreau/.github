@@ -3,11 +3,10 @@ issuer: https://accounts.google.com
 subject: "112588961087701734298"
 
 permissions:
-  # Read PR details
   pull_requests: read
-  # Read repo contents
   contents: read
   checks: write
 
 repositories:
   - stereo
+  - driftlessaf-demo
