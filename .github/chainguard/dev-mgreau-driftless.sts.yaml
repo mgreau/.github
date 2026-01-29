@@ -1,11 +1,11 @@
-  issuer: https://accounts.google.com
-  # mgreau85-gh-pr-hello@mgreau85-chainguard.iam.gserviceaccount.com
-  subject: "112588961087701734298"
+issuer: https://accounts.google.com
+# mgreau85-gh-pr-hello@mgreau85-chainguard.iam.gserviceaccount.com
+subject: "112588961087701734298"
 
-  permissions:
-    pull_requests: read
-    contents: read
-    checks: write
+permissions:
+  pull_requests: read
+  contents: read
+  checks: write
 
-  repositories:
-    - driftlessaf-demo
+repositories:
+  - driftlessaf-demo
