@@ -7,3 +7,5 @@ permissions:
   pull_requests: read
   # Read repo contents
   contents: read
+  # Create check runs for PR validation
+  checks: write
