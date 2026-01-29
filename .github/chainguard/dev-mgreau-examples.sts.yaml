@@ -9,3 +9,5 @@ permissions:
   contents: read
   checks: write
 
+repositories:
+  - stereo
