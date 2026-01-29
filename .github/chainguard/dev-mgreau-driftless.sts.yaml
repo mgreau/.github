@@ -1,0 +1,12 @@
+issuer: https://accounts.google.com
+# Service Account: mgreau85-gh-pr-hello@mgreau85-chainguard.iam.gserviceaccount.com
+# This is the unique ID of the GCP service account used by the GitHub PR reconciler
+subject: "112588961087701734298"
+
+permissions:
+  pull_requests: read
+  contents: read
+  checks: write
+
+repositories:
+  - driftlessaf-demo
