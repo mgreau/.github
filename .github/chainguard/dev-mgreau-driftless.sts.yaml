@@ -6,6 +6,3 @@ permissions:
   pull_requests: read
   contents: read
   checks: write
-
-repositories:
-  - driftlessaf-demo
