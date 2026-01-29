@@ -1,0 +1,11 @@
+issuer: https://accounts.google.com
+subject: "109341865484100264303"
+
+permissions:
+  # to update PR titles and descriptions
+  pull_requests: write
+  contents: read
+  checks: write
+
+repositories:
+  - driftlessaf-demo
