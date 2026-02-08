@@ -1,6 +1,6 @@
 issuer: https://accounts.google.com
-# mgreau85-gh-pr-agt@mgreau85-chainguard.iam.gserviceaccount.com
-subject: "109341865484100264303"
+# mgreau85-gh-pr-afx@mgreau85-chainguard.iam.gserviceaccount.com
+subject: "102667287247918891689"
 
 permissions:
   # to update PR titles and descriptions
