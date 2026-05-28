@@ -1,0 +1,12 @@
+issuer: https://accounts.google.com
+# mgreau85-gh-pr-afx@mgreau85-chainguard.iam.gserviceaccount.com
+subject: "0"
+
+permissions:
+  # to update PR titles and descriptions
+  pull_requests: write
+  contents: read
+  checks: write
+
+repositories:
+  - fridge-reconciler-demo
