@@ -1,0 +1,10 @@
+issuer: https://accounts.google.com
+# autofix@prod-enforce-fabc.iam.gserviceaccount.com
+subject: "114301252256317020592"
+
+permissions:
+  # Required to push commits with fixes to the fork
+  contents: write
+
+repositories:
+  - mono
