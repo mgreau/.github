@@ -1,0 +1,13 @@
+# Octo STS policy for the mgreau.dev dev Reviewbot. Reviewbot mints
+# account-scoped tokens, so Octo STS reads this file from mgreau/.github.
+# reviewbot@mgreau85-chainguard.iam.gserviceaccount.com
+issuer: https://accounts.google.com
+subject: "115818580235131721704"
+
+permissions:
+  contents: read
+  pull_requests: write
+  checks: write
+
+repositories:
+  - mono
